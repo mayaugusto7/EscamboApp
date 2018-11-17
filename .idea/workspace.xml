@@ -87,7 +87,7 @@
           <entry key="Procfile" value="131" />
           <entry key="css" value="94" />
           <entry key="erb" value="11625" />
-          <entry key="gitignore" value="72" />
+          <entry key="gitignore" value="78" />
           <entry key="html" value="3" />
           <entry key="js" value="259" />
           <entry key="rake" value="1849" />
@@ -102,7 +102,7 @@
           <entry key="CSS" value="94" />
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="261" />
-          <entry key="PLAIN_TEXT" value="203" />
+          <entry key="PLAIN_TEXT" value="209" />
           <entry key="RDOC" value="373" />
           <entry key="RHTML" value="11623" />
           <entry key="Ruby" value="13544" />
@@ -166,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -356,6 +356,11 @@
               <item name="escamboapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="escamboapp" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escamboapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escamboapp" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -581,12 +586,12 @@
       <workItem from="1542408114635" duration="418000" />
       <workItem from="1542408679624" duration="136000" />
       <workItem from="1542410520151" duration="3112000" />
-      <workItem from="1542452670462" duration="7349000" />
+      <workItem from="1542452670462" duration="7589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217256000" />
+    <option name="totallyTimeSpent" value="217496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,7 +1044,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
