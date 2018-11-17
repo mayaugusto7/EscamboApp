@@ -91,7 +91,7 @@
           <entry key="html" value="3" />
           <entry key="js" value="259" />
           <entry key="rake" value="1876" />
-          <entry key="rb" value="11271" />
+          <entry key="rb" value="11273" />
           <entry key="rdoc" value="393" />
           <entry key="scss" value="22" />
           <entry key="yml" value="1231" />
@@ -105,7 +105,7 @@
           <entry key="PLAIN_TEXT" value="209" />
           <entry key="RDOC" value="393" />
           <entry key="RHTML" value="11623" />
-          <entry key="Ruby" value="13770" />
+          <entry key="Ruby" value="13772" />
           <entry key="SCSS" value="22" />
           <entry key="YAML" value="1231" />
         </counts>
@@ -168,8 +168,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -590,12 +590,12 @@
       <workItem from="1542408679624" duration="136000" />
       <workItem from="1542410520151" duration="3112000" />
       <workItem from="1542452670462" duration="10364000" />
-      <workItem from="1542483847406" duration="8155000" />
+      <workItem from="1542483847406" duration="8244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228426000" />
+    <option name="totallyTimeSpent" value="228515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1041,8 +1041,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>

@@ -1969,3 +1969,23 @@ I, [2018-11-17T13:49:20.161327 #21932]  INFO -- : Writing /var/www/escamboapp/re
  DEBUG [123f4067] Running /usr/local/rvm/bin/rvm ruby-2.5.1-p57 do ruby --version as deploy@159.65.19.177
  DEBUG [123f4067] Command: /usr/local/rvm/bin/rvm ruby-2.5.1-p57 do ruby --version
  DEBUG [b4f4e2cf] 	Ruby ruby-2.5.1-p57 is not installed.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-17 22:40:05 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [500b9000] Running [ -d ~/.rvm ] as deploy@159.65.19.177
+ DEBUG [500b9000] Command: [ -d ~/.rvm ]
+ DEBUG [e8d7e32f] Finished in 3.600 seconds with exit status 1 (failed).
+ DEBUG [75e62835] Running [ -d /usr/local/rvm ] as deploy@159.65.19.177
+ DEBUG [75e62835] Command: [ -d /usr/local/rvm ]
+ DEBUG [f9c5ec41] Finished in 0.763 seconds with exit status 0 (successful).
+ DEBUG [99278fed] Running /usr/local/rvm/bin/rvm version as deploy@159.65.19.177
+ DEBUG [99278fed] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [6e142fbe] 	rvm 1.29.4 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [6e142fbe] Finished in 1.533 seconds with exit status 0 (successful).
+ DEBUG [16cc20cb] Running /usr/local/rvm/bin/rvm current as deploy@159.65.19.177
+ DEBUG [16cc20cb] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [41cdb92d] 	ruby-2.3.8
+ DEBUG [41cdb92d] Finished in 0.998 seconds with exit status 0 (successful).
+ DEBUG [740f1e5e] Running /usr/local/rvm/bin/rvm ruby-2.5.1 do ruby --version as deploy@159.65.19.177
+ DEBUG [740f1e5e] Command: /usr/local/rvm/bin/rvm ruby-2.5.1 do ruby --version
+ DEBUG [c7e653ed] 	Ruby ruby-2.5.1 is not installed.
