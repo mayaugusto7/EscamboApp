@@ -199,7 +199,7 @@ GEM
       money (~> 6.13.0)
       railties (>= 3.0)
     multi_json (1.13.1)
-    mysql2 (0.5.2)
+    mysql2 (0.3.21)
     nenv (0.3.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -377,7 +377,7 @@ DEPENDENCIES
   lerolero_generator
   mailcatcher
   money-rails (~> 1.12)
-  mysql2
+  mysql2 (~> 0.3.18)
   paperclip (~> 6.0.0)
   pundit
   rails (= 4.2.8)
