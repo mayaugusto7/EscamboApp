@@ -56,7 +56,7 @@
           <entry key="jpg" value="4" />
           <entry key="js" value="39" />
           <entry key="lock" value="1" />
-          <entry key="log" value="1" />
+          <entry key="log" value="2" />
           <entry key="rake" value="14" />
           <entry key="rb" value="319" />
           <entry key="rdoc" value="7" />
@@ -70,6 +70,7 @@
           <entry key="HTML" value="8" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="39" />
+          <entry key="Log" value="1" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="RDOC" value="7" />
           <entry key="RHTML" value="295" />
@@ -161,11 +162,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/capistrano.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="193">
+              <caret line="449" column="52" selection-start-line="449" selection-start-column="47" selection-end-line="449" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -579,12 +589,12 @@
       <workItem from="1542408114635" duration="418000" />
       <workItem from="1542408679624" duration="136000" />
       <workItem from="1542410520151" duration="3112000" />
-      <workItem from="1542452670462" duration="6841000" />
+      <workItem from="1542452670462" duration="7082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216748000" />
+    <option name="totallyTimeSpent" value="216989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,7 +609,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.24093817" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.2531983" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,7 +622,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49307036" visible="true" weight="0.31053203" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49307036" visible="true" weight="0.31053203" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50692964" side_tool="true" weight="0.31053203" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -722,13 +732,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/members/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1038,6 +1041,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/capistrano.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="193">
+          <caret line="449" column="52" selection-start-line="449" selection-start-column="47" selection-end-line="449" selection-end-column="52" />
         </state>
       </provider>
     </entry>
