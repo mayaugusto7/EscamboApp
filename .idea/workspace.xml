@@ -554,12 +554,12 @@
       <workItem from="1542408679624" duration="136000" />
       <workItem from="1542410520151" duration="3112000" />
       <workItem from="1542452670462" duration="10364000" />
-      <workItem from="1542483847406" duration="2484000" />
+      <workItem from="1542483847406" duration="2692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222755000" />
+    <option name="totallyTimeSpent" value="222963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,9 +572,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.24360341" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.2531983" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -587,7 +586,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49307036" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49307036" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50692964" side_tool="true" weight="0.31053203" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
