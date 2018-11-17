@@ -1949,3 +1949,23 @@ I, [2018-11-17T13:49:20.161327 #21932]  INFO -- : Writing /var/www/escamboapp/re
   INFO [e93f14d9] Running /usr/local/rvm/bin/rvm default do bundle exec unicorn -c /var/www/escamboapp/current/config/unicorn/production.rb -E deployment -D  as deploy@159.65.19.177
  DEBUG [e93f14d9] Command: cd /var/www/escamboapp/current && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec unicorn -c /var/www/escamboapp/current/config/unicorn/production.rb -E deployment -D  )
  DEBUG [c0556cb0] 	master failed to start, check stderr log for details
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-17 22:38:58 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [046ecb55] Running [ -d ~/.rvm ] as deploy@159.65.19.177
+ DEBUG [046ecb55] Command: [ -d ~/.rvm ]
+ DEBUG [d7feeb84] Finished in 3.416 seconds with exit status 1 (failed).
+ DEBUG [cfc34134] Running [ -d /usr/local/rvm ] as deploy@159.65.19.177
+ DEBUG [cfc34134] Command: [ -d /usr/local/rvm ]
+ DEBUG [7847de94] Finished in 0.746 seconds with exit status 0 (successful).
+ DEBUG [af9ea648] Running /usr/local/rvm/bin/rvm version as deploy@159.65.19.177
+ DEBUG [af9ea648] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [62bf2b9d] 	rvm 1.29.4 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [62bf2b9d] Finished in 0.992 seconds with exit status 0 (successful).
+ DEBUG [80b372d4] Running /usr/local/rvm/bin/rvm current as deploy@159.65.19.177
+ DEBUG [80b372d4] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [433cb11f] 	ruby-2.3.8
+ DEBUG [433cb11f] Finished in 0.950 seconds with exit status 0 (successful).
+ DEBUG [123f4067] Running /usr/local/rvm/bin/rvm ruby-2.5.1-p57 do ruby --version as deploy@159.65.19.177
+ DEBUG [123f4067] Command: /usr/local/rvm/bin/rvm ruby-2.5.1-p57 do ruby --version
+ DEBUG [b4f4e2cf] 	Ruby ruby-2.5.1-p57 is not installed.
