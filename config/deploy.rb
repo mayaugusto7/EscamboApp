@@ -2,15 +2,13 @@
 lock "~> 3.11.0"
 
 set :application, "EscamboApp"
-set :repo_url, "https://github.com/mayribeiro/rails4-udemy.git"
+set :repo_url, "https://github.com/mayribeiro/EscamboApp.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/var/www/escamboapp"
-
-set :scm, :git
 
 set :branch, "master"
 # Default value for :format is :airbrussh.
@@ -25,7 +23,7 @@ set :log_level, :debug
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/database.yml"
+append :linked_files, "config/database.yml", "config/secrets.yml"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
