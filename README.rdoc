@@ -45,7 +45,7 @@ rsync -zarv vagrant@vagrant:/remote/path /local/path
 
 ```
 sudo apt-get update
-sudo apt-get install imagemagick
+sudo apt-get install imagemagick libmagickwand-dev
 ```
 
 * Graphviz (https://www.graphviz.org)

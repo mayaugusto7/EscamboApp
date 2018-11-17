@@ -43,6 +43,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Faker JS
+gem 'faker'
+
+# Markdown Lorem Ipsum generator https://github.com/geekjuice/doctor_ipsum
+gem 'doctor_ipsum'
+
+# Lero Lero Generator
+gem 'lerolero_generator'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -60,21 +69,12 @@ group :development do
   # Generate Entity-Relationship Diagrams for Rails applications http://voormedia.github.io/rails-erd
   gem 'rails-erd'
 
-  # Faker JS
-  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-
-  #Markdown Lorem Ipsum generator https://github.com/geekjuice/doctor_ipsum
-  gem 'doctor_ipsum'
-
   # Catches mail and serves it through a dream. http://mailcatcher.me
   gem 'mailcatcher'
 
   # Ruby Mine Debug  remote
   gem 'ruby-debug-ide', '~> 0.6.0'
   gem 'debase'
-
-  # Lero Lero Generator
-  gem 'lerolero_generator'
 
   # Capistrano Deploy automatizado
   gem 'capistrano', '~> 3.7'
