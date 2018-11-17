@@ -1,0 +1,64 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+
+# Vagrant livereload config
+config.vm.network :forwarded_port, guest: 35729, host: 35729
+guard -p -l 1
+
+# mailcatcher: mailcatcher --http-ip 0.0.0.0 -v
+
+
+rsync -zarv vagrant@vagrant:/remote/path /local/path
+
+# /vagrant/escamboapp/public/templates/images-for-ads
+ File.new(Rails.root.join('public', 'templates', 'images-for-ads', '0.jpg'), 'r')
+
+### Dependências do projeto
+
+* ImageMagick (https://www.imagemagick.org)
+
+```
+sudo apt-get update
+sudo apt-get install imagemagick
+```
+
+* Graphviz (https://www.graphviz.org)
+
+```
+sudo apt-get update
+sudo apt-get install graphviz
+```
+
+   <div class="carousel-inner">
+        <% @carousel.each do |ad| %>
+          <div class="item <%= @carousel.first.id == ad.id  ? 'active': '' %>">
+            <%= image_tag ad.picture.url(:large), class: "slide-image" %>
+          </div>
+        <% end %>
+      </div>

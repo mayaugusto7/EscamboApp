@@ -1,0 +1,65 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="page-header">Administradores</h3>
+
+
+    <div class="row">
+      <div class="col-lg-12" align="right">
+        <% if policy(@admins).new? %>
+           <%= link_to new_backoffice_admin_path, class: "btn btn-success" do %>
+             <i class="fa fa-plus"></i> &nbsp;Novo
+           <% end %>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="panel-body">
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Tipo de Acesso</th>
+          <th style="width: 150px;">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @admins.each do |admin| %>
+          <tr>
+            <td><%= admin.id %></td>
+            <td><%= admin.name %></td>
+            <td><%= admin.role_i18n %></td>
+            <td>
+                <%= link_to edit_backoffice_send_mail_path(admin.id), class: "btn btn-primary btn-circle", remote: true do %>
+                <i class="fa fa-envelope"></i>
+                <% end %>
+
+                <%= link_to edit_backoffice_admin_path(admin.id), class: "btn btn-warning btn-circle"  do %>
+                  <i class="fa fa-edit"></i>
+                <% end %>
+
+                <% if current_admin.id != admin.id && policy(@admins).destroy? %>
+                  <%= link_to backoffice_admin_path(admin), method: :delete, class: "btn btn-danger btn-circle",
+                              data: {confirm: t('messages.confirm_with', item: admin.name)}  do %>
+                    <i class="fa fa-times"></i>
+                  <% end %>
+
+                <% else %>
+                  <%= link_to "#", disabled: "disabled", class: "btn btn-danger btn-circle" do %>
+                    <i class="fa fa-times"></i>
+                  <% end %>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<%= render partial: 'backoffice/admins/shared/send_email_modal' %>

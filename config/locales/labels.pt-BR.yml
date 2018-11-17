@@ -1,0 +1,9 @@
+"pt-BR":
+  labels:
+    recipient: Destinatário
+    message: "Mensagem"
+    subject: "Assunto"
+    close: "Fechar"
+    send_message: "Enviar Mensagem"
+    reviews: "avaliações"
+    forgot_password: "Recuperar Senha"
