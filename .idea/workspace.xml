@@ -50,7 +50,7 @@
           <entry key="Rakefile" value="1" />
           <entry key="Vagrantfile" value="1" />
           <entry key="css" value="28" />
-          <entry key="erb" value="297" />
+          <entry key="erb" value="300" />
           <entry key="example" value="1" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="8" />
@@ -74,7 +74,7 @@
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="RDOC" value="8" />
-          <entry key="RHTML" value="297" />
+          <entry key="RHTML" value="300" />
           <entry key="Ruby" value="401" />
           <entry key="SCSS" value="9" />
           <entry key="YAML" value="23" />
@@ -87,7 +87,7 @@
           <entry key="Guardfile" value="8" />
           <entry key="Procfile" value="131" />
           <entry key="css" value="94" />
-          <entry key="erb" value="11625" />
+          <entry key="erb" value="11662" />
           <entry key="gitignore" value="78" />
           <entry key="html" value="3" />
           <entry key="js" value="259" />
@@ -105,7 +105,7 @@
           <entry key="JavaScript" value="261" />
           <entry key="PLAIN_TEXT" value="209" />
           <entry key="RDOC" value="393" />
-          <entry key="RHTML" value="11623" />
+          <entry key="RHTML" value="11660" />
           <entry key="Ruby" value="13825" />
           <entry key="SCSS" value="22" />
           <entry key="YAML" value="1231" />
@@ -136,11 +136,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="175">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/site/ad_details/_show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/site/shared/_ads.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/site/ad_details/_comments.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -194,6 +221,7 @@
       <find>unicorn</find>
       <find>rub</find>
       <find>rake</find>
+      <find>rating_for</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,11 +238,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/site.js" />
         <option value="$PROJECT_DIR$/app/controllers/rater_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/site.css" />
-        <option value="$PROJECT_DIR$/app/views/site/ad_details/_comments.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/site/ad_details/_show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/ratyrate.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/site/shared/_ads.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20181111231021_create_profile_members.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/site_shared/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/profile.html.erb" />
@@ -253,6 +278,9 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/app/models/ad.rb" />
+        <option value="$PROJECT_DIR$/app/views/site/ad_details/_show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/site/shared/_ads.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/site/ad_details/_comments.html.erb" />
       </list>
     </option>
   </component>
@@ -580,12 +608,12 @@
       <workItem from="1542452670462" duration="10364000" />
       <workItem from="1542483847406" duration="9306000" />
       <workItem from="1542495691285" duration="138000" />
-      <workItem from="1542537101209" duration="5252000" />
+      <workItem from="1542537101209" duration="6045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234967000" />
+    <option name="totallyTimeSpent" value="235760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,16 +751,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/members/confirmations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/models-pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -848,13 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/shared/_ads.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1029,8 +1040,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="175">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/ad_details/_show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/shared/_ads.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/ad_details/_comments.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
         </state>
       </provider>
     </entry>
