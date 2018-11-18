@@ -5072,3 +5072,312 @@ I, [2018-11-18T11:21:23.655663 #7925]  INFO -- : Writing /var/www/escamboapp/rel
   INFO [cf24adcb] Running /usr/bin/env echo "Branch master (at 802ce6ff19a4d766accac846e6ccd40577dffd02) deployed as release 20181118120041 by vagrant" >> /var/www/escamboapp/revisions.log as deploy@159.65.19.177
  DEBUG [cf24adcb] Command: cd /var/www/escamboapp/releases && /usr/bin/env echo "Branch master (at 802ce6ff19a4d766accac846e6ccd40577dffd02) deployed as release 20181118120041 by vagrant" >> /var/www/escamboapp/revisions.log
   INFO [90da57d7] Finished in 0.768 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-18 12:14:41 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2d8e721c] Running [ -d ~/.rvm ] as deploy@159.65.19.177
+ DEBUG [2d8e721c] Command: [ -d ~/.rvm ]
+ DEBUG [ab5f3531] Finished in 3.724 seconds with exit status 1 (failed).
+ DEBUG [355c1045] Running [ -d /usr/local/rvm ] as deploy@159.65.19.177
+ DEBUG [355c1045] Command: [ -d /usr/local/rvm ]
+ DEBUG [5a42ebbf] Finished in 0.827 seconds with exit status 0 (successful).
+ DEBUG [5e1d8d82] Running /usr/local/rvm/bin/rvm version as deploy@159.65.19.177
+ DEBUG [5e1d8d82] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [8f4f1e3c] 	rvm 1.29.4 (master) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [8f4f1e3c] Finished in 1.086 seconds with exit status 0 (successful).
+ DEBUG [95ba383c] Running /usr/local/rvm/bin/rvm current as deploy@159.65.19.177
+ DEBUG [95ba383c] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [138bac72] 	ruby-2.5.1
+ DEBUG [138bac72] Finished in 1.035 seconds with exit status 0 (successful).
+ DEBUG [14e9f075] Running /usr/local/rvm/bin/rvm default do ruby --version as deploy@159.65.19.177
+ DEBUG [14e9f075] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [2dddb88e] 	ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
+ DEBUG [2dddb88e] Finished in 1.172 seconds with exit status 0 (successful).
+  INFO [026d9248] Running /usr/bin/env mkdir -p /tmp as deploy@159.65.19.177
+ DEBUG [026d9248] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5a26edee] Finished in 0.897 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-EscamboApp-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-EscamboApp-production-vagrant.sh 100.0%
+  INFO [46580c02] Running /usr/bin/env chmod 700 /tmp/git-ssh-EscamboApp-production-vagrant.sh as deploy@159.65.19.177
+ DEBUG [46580c02] Command: /usr/bin/env chmod 700 /tmp/git-ssh-EscamboApp-production-vagrant.sh
+  INFO [03f31936] Finished in 0.815 seconds with exit status 0 (successful).
+  INFO [8e605c94] Running /usr/bin/env git ls-remote https://github.com/mayribeiro/EscamboApp.git HEAD as deploy@159.65.19.177
+ DEBUG [8e605c94] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env git ls-remote https://github.com/mayribeiro/EscamboApp.git HEAD )
+ DEBUG [0bd1030d] 	2a5b10be02999e54a86c461d1018e4c39fd396d5	HEAD
+  INFO [0bd1030d] Finished in 1.289 seconds with exit status 0 (successful).
+  INFO [38458d73] Running /usr/bin/env mkdir -p /var/www/escamboapp/shared /var/www/escamboapp/releases as deploy@159.65.19.177
+ DEBUG [38458d73] Command: /usr/bin/env mkdir -p /var/www/escamboapp/shared /var/www/escamboapp/releases
+  INFO [b751a10f] Finished in 0.817 seconds with exit status 0 (successful).
+  INFO [0276fdc0] Running /usr/bin/env mkdir -p /var/www/escamboapp/shared/log /var/www/escamboapp/shared/tmp/pids /var/www/escamboapp/shared/tmp/cache /var/www/escamboapp/shared/tmp/sockets /var/www/escamboapp/shared/public/system /var/www/escamboapp/shared/public/assets as deploy@159.65.19.177
+ DEBUG [0276fdc0] Command: /usr/bin/env mkdir -p /var/www/escamboapp/shared/log /var/www/escamboapp/shared/tmp/pids /var/www/escamboapp/shared/tmp/cache /var/www/escamboapp/shared/tmp/sockets /var/www/escamboapp/shared/public/system /var/www/escamboapp/shared/public/assets
+  INFO [4bfcc76d] Finished in 0.810 seconds with exit status 0 (successful).
+  INFO [e368e411] Running /usr/bin/env mkdir -p /var/www/escamboapp/shared/config as deploy@159.65.19.177
+ DEBUG [e368e411] Command: /usr/bin/env mkdir -p /var/www/escamboapp/shared/config
+  INFO [e86f3774] Finished in 0.805 seconds with exit status 0 (successful).
+ DEBUG [85e463c9] Running [ -f /var/www/escamboapp/shared/config/database.yml ] as deploy@159.65.19.177
+ DEBUG [85e463c9] Command: [ -f /var/www/escamboapp/shared/config/database.yml ]
+ DEBUG [d3de4e99] Finished in 0.808 seconds with exit status 0 (successful).
+ DEBUG [c3fd9aa9] Running [ -f /var/www/escamboapp/shared/config/secrets.yml ] as deploy@159.65.19.177
+ DEBUG [c3fd9aa9] Command: [ -f /var/www/escamboapp/shared/config/secrets.yml ]
+ DEBUG [0e50ac27] Finished in 0.837 seconds with exit status 0 (successful).
+ DEBUG [75af5b4d] Running [ -f /var/www/escamboapp/current/REVISION ] as deploy@159.65.19.177
+ DEBUG [75af5b4d] Command: [ -f /var/www/escamboapp/current/REVISION ]
+ DEBUG [31eb4d52] Finished in 1.499 seconds with exit status 0 (successful).
+ DEBUG [d29a6990] Running /usr/bin/env cat /var/www/escamboapp/current/REVISION 2>/dev/null as deploy@159.65.19.177
+ DEBUG [d29a6990] Command: /usr/bin/env cat /var/www/escamboapp/current/REVISION 2>/dev/null
+ DEBUG [1b4ae9d6] 	802ce6ff19a4d766accac846e6ccd40577dffd02
+ DEBUG [1b4ae9d6] Finished in 0.858 seconds with exit status 0 (successful).
+ DEBUG [fce98192] Running [ -f /var/www/escamboapp/repo/HEAD ] as deploy@159.65.19.177
+ DEBUG [fce98192] Command: [ -f /var/www/escamboapp/repo/HEAD ]
+ DEBUG [c43d8ea9] Finished in 0.809 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/escamboapp/repo
+ DEBUG [4b362cde] Running if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [4b362cde] Command: if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi
+ DEBUG [ab6c66aa] Finished in 0.814 seconds with exit status 0 (successful).
+  INFO [52cfb65e] Running /usr/bin/env git remote set-url origin https://github.com/mayribeiro/EscamboApp.git as deploy@159.65.19.177
+ DEBUG [52cfb65e] Command: cd /var/www/escamboapp/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env git remote set-url origin https://github.com/mayribeiro/EscamboApp.git )
+  INFO [a7e7e898] Finished in 0.812 seconds with exit status 0 (successful).
+  INFO [0549e8d9] Running /usr/bin/env git remote update --prune as deploy@159.65.19.177
+ DEBUG [0549e8d9] Command: cd /var/www/escamboapp/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6bc5e263] 	Fetching origin
+ DEBUG [6bc5e263] 	From https://github.com/mayribeiro/EscamboApp
+   802ce6f..2a5b10b  master     -> master
+  INFO [6bc5e263] Finished in 3.118 seconds with exit status 0 (successful).
+ DEBUG [d6b33a9e] Running if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [d6b33a9e] Command: if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi
+ DEBUG [19e6d1dd] Finished in 0.810 seconds with exit status 0 (successful).
+  INFO [66bb5ee6] Running /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501 as deploy@159.65.19.177
+ DEBUG [66bb5ee6] Command: cd /var/www/escamboapp/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501 )
+  INFO [e6f609ba] Finished in 0.816 seconds with exit status 0 (successful).
+  INFO [84f792f4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/escamboapp/releases/20181118121501 as deploy@159.65.19.177
+ DEBUG [84f792f4] Command: cd /var/www/escamboapp/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/escamboapp/releases/20181118121501 )
+  INFO [981a97df] Finished in 2.039 seconds with exit status 0 (successful).
+ DEBUG [85da86dc] Running if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [85da86dc] Command: if test ! -d /var/www/escamboapp/repo; then echo "Directory does not exist '/var/www/escamboapp/repo'" 1>&2; false; fi
+ DEBUG [ed7280b3] Finished in 1.988 seconds with exit status 0 (successful).
+ DEBUG [48ba5436] Running /usr/bin/env git rev-list --max-count=1 master as deploy@159.65.19.177
+ DEBUG [48ba5436] Command: cd /var/www/escamboapp/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-EscamboApp-production-vagrant.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [c36614ff] 	2a5b10be02999e54a86c461d1018e4c39fd396d5
+ DEBUG [c36614ff] Finished in 0.820 seconds with exit status 0 (successful).
+ DEBUG [655bb921] Running if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [655bb921] Command: if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi
+ DEBUG [ef4a9c6b] Finished in 0.820 seconds with exit status 0 (successful).
+  INFO [d30f6c18] Running /usr/bin/env echo "2a5b10be02999e54a86c461d1018e4c39fd396d5" > REVISION as deploy@159.65.19.177
+ DEBUG [d30f6c18] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/bin/env echo "2a5b10be02999e54a86c461d1018e4c39fd396d5" > REVISION
+  INFO [2e50a7f5] Finished in 0.812 seconds with exit status 0 (successful).
+  INFO [cbc95198] Running /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501/config as deploy@159.65.19.177
+ DEBUG [cbc95198] Command: /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501/config
+  INFO [10394c62] Finished in 1.375 seconds with exit status 0 (successful).
+ DEBUG [607fef05] Running [ -L /var/www/escamboapp/releases/20181118121501/config/database.yml ] as deploy@159.65.19.177
+ DEBUG [607fef05] Command: [ -L /var/www/escamboapp/releases/20181118121501/config/database.yml ]
+ DEBUG [1f66fd0a] Finished in 0.807 seconds with exit status 1 (failed).
+ DEBUG [3485ccef] Running [ -f /var/www/escamboapp/releases/20181118121501/config/database.yml ] as deploy@159.65.19.177
+ DEBUG [3485ccef] Command: [ -f /var/www/escamboapp/releases/20181118121501/config/database.yml ]
+ DEBUG [b54bdd73] Finished in 0.812 seconds with exit status 0 (successful).
+  INFO [8f386c11] Running /usr/bin/env rm /var/www/escamboapp/releases/20181118121501/config/database.yml as deploy@159.65.19.177
+ DEBUG [8f386c11] Command: /usr/bin/env rm /var/www/escamboapp/releases/20181118121501/config/database.yml
+  INFO [b2b98868] Finished in 0.828 seconds with exit status 0 (successful).
+  INFO [42ce8523] Running /usr/bin/env ln -s /var/www/escamboapp/shared/config/database.yml /var/www/escamboapp/releases/20181118121501/config/database.yml as deploy@159.65.19.177
+ DEBUG [42ce8523] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/config/database.yml /var/www/escamboapp/releases/20181118121501/config/database.yml
+  INFO [2cca1592] Finished in 0.812 seconds with exit status 0 (successful).
+ DEBUG [52c970cf] Running [ -L /var/www/escamboapp/releases/20181118121501/config/secrets.yml ] as deploy@159.65.19.177
+ DEBUG [52c970cf] Command: [ -L /var/www/escamboapp/releases/20181118121501/config/secrets.yml ]
+ DEBUG [cb153cf7] Finished in 0.807 seconds with exit status 1 (failed).
+ DEBUG [2d5b9431] Running [ -f /var/www/escamboapp/releases/20181118121501/config/secrets.yml ] as deploy@159.65.19.177
+ DEBUG [2d5b9431] Command: [ -f /var/www/escamboapp/releases/20181118121501/config/secrets.yml ]
+ DEBUG [c356519f] Finished in 0.816 seconds with exit status 0 (successful).
+  INFO [dcdf4106] Running /usr/bin/env rm /var/www/escamboapp/releases/20181118121501/config/secrets.yml as deploy@159.65.19.177
+ DEBUG [dcdf4106] Command: /usr/bin/env rm /var/www/escamboapp/releases/20181118121501/config/secrets.yml
+  INFO [18bc01f2] Finished in 0.807 seconds with exit status 0 (successful).
+  INFO [36c65f57] Running /usr/bin/env ln -s /var/www/escamboapp/shared/config/secrets.yml /var/www/escamboapp/releases/20181118121501/config/secrets.yml as deploy@159.65.19.177
+ DEBUG [36c65f57] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/config/secrets.yml /var/www/escamboapp/releases/20181118121501/config/secrets.yml
+  INFO [bdcad3ce] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [03d3c452] Running /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501 /var/www/escamboapp/releases/20181118121501/tmp /var/www/escamboapp/releases/20181118121501/public as deploy@159.65.19.177
+ DEBUG [03d3c452] Command: /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501 /var/www/escamboapp/releases/20181118121501/tmp /var/www/escamboapp/releases/20181118121501/public
+  INFO [683aecd6] Finished in 0.811 seconds with exit status 0 (successful).
+ DEBUG [b7ae28c4] Running [ -L /var/www/escamboapp/releases/20181118121501/log ] as deploy@159.65.19.177
+ DEBUG [b7ae28c4] Command: [ -L /var/www/escamboapp/releases/20181118121501/log ]
+ DEBUG [d473c585] Finished in 1.165 seconds with exit status 1 (failed).
+ DEBUG [2e7c8408] Running [ -d /var/www/escamboapp/releases/20181118121501/log ] as deploy@159.65.19.177
+ DEBUG [2e7c8408] Command: [ -d /var/www/escamboapp/releases/20181118121501/log ]
+ DEBUG [7bdeff68] Finished in 0.809 seconds with exit status 0 (successful).
+  INFO [94cc2e1c] Running /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/log as deploy@159.65.19.177
+ DEBUG [94cc2e1c] Command: /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/log
+  INFO [5a87ea49] Finished in 0.810 seconds with exit status 0 (successful).
+  INFO [a037f42e] Running /usr/bin/env ln -s /var/www/escamboapp/shared/log /var/www/escamboapp/releases/20181118121501/log as deploy@159.65.19.177
+ DEBUG [a037f42e] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/log /var/www/escamboapp/releases/20181118121501/log
+  INFO [4ca19ffe] Finished in 0.811 seconds with exit status 0 (successful).
+ DEBUG [741a4541] Running [ -L /var/www/escamboapp/releases/20181118121501/tmp/pids ] as deploy@159.65.19.177
+ DEBUG [741a4541] Command: [ -L /var/www/escamboapp/releases/20181118121501/tmp/pids ]
+ DEBUG [efdfdd74] Finished in 0.806 seconds with exit status 1 (failed).
+ DEBUG [dbece72b] Running [ -d /var/www/escamboapp/releases/20181118121501/tmp/pids ] as deploy@159.65.19.177
+ DEBUG [dbece72b] Command: [ -d /var/www/escamboapp/releases/20181118121501/tmp/pids ]
+ DEBUG [df48904e] Finished in 0.810 seconds with exit status 1 (failed).
+  INFO [ffa8cd36] Running /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/pids /var/www/escamboapp/releases/20181118121501/tmp/pids as deploy@159.65.19.177
+ DEBUG [ffa8cd36] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/pids /var/www/escamboapp/releases/20181118121501/tmp/pids
+  INFO [4079c1b6] Finished in 0.815 seconds with exit status 0 (successful).
+ DEBUG [63406753] Running [ -L /var/www/escamboapp/releases/20181118121501/tmp/cache ] as deploy@159.65.19.177
+ DEBUG [63406753] Command: [ -L /var/www/escamboapp/releases/20181118121501/tmp/cache ]
+ DEBUG [8e4a314b] Finished in 1.262 seconds with exit status 1 (failed).
+ DEBUG [121ba0bd] Running [ -d /var/www/escamboapp/releases/20181118121501/tmp/cache ] as deploy@159.65.19.177
+ DEBUG [121ba0bd] Command: [ -d /var/www/escamboapp/releases/20181118121501/tmp/cache ]
+ DEBUG [88fad468] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [7e8aa1cc] Running /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/tmp/cache as deploy@159.65.19.177
+ DEBUG [7e8aa1cc] Command: /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/tmp/cache
+  INFO [50dbff9d] Finished in 0.881 seconds with exit status 0 (successful).
+  INFO [8e2ad655] Running /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/cache /var/www/escamboapp/releases/20181118121501/tmp/cache as deploy@159.65.19.177
+ DEBUG [8e2ad655] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/cache /var/www/escamboapp/releases/20181118121501/tmp/cache
+  INFO [07145ea3] Finished in 0.810 seconds with exit status 0 (successful).
+ DEBUG [e98404c6] Running [ -L /var/www/escamboapp/releases/20181118121501/tmp/sockets ] as deploy@159.65.19.177
+ DEBUG [e98404c6] Command: [ -L /var/www/escamboapp/releases/20181118121501/tmp/sockets ]
+ DEBUG [5915de5b] Finished in 0.815 seconds with exit status 1 (failed).
+ DEBUG [f44d5129] Running [ -d /var/www/escamboapp/releases/20181118121501/tmp/sockets ] as deploy@159.65.19.177
+ DEBUG [f44d5129] Command: [ -d /var/www/escamboapp/releases/20181118121501/tmp/sockets ]
+ DEBUG [fd4b2e12] Finished in 0.810 seconds with exit status 1 (failed).
+  INFO [51c3326e] Running /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/sockets /var/www/escamboapp/releases/20181118121501/tmp/sockets as deploy@159.65.19.177
+ DEBUG [51c3326e] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/tmp/sockets /var/www/escamboapp/releases/20181118121501/tmp/sockets
+  INFO [683d793d] Finished in 0.811 seconds with exit status 0 (successful).
+ DEBUG [2d2f3705] Running [ -L /var/www/escamboapp/releases/20181118121501/public/system ] as deploy@159.65.19.177
+ DEBUG [2d2f3705] Command: [ -L /var/www/escamboapp/releases/20181118121501/public/system ]
+ DEBUG [c7e24a65] Finished in 0.808 seconds with exit status 1 (failed).
+ DEBUG [2f54df0c] Running [ -d /var/www/escamboapp/releases/20181118121501/public/system ] as deploy@159.65.19.177
+ DEBUG [2f54df0c] Command: [ -d /var/www/escamboapp/releases/20181118121501/public/system ]
+ DEBUG [5214c57a] Finished in 0.806 seconds with exit status 0 (successful).
+  INFO [aa5e7425] Running /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/public/system as deploy@159.65.19.177
+ DEBUG [aa5e7425] Command: /usr/bin/env rm -rf /var/www/escamboapp/releases/20181118121501/public/system
+  INFO [d56c2456] Finished in 0.834 seconds with exit status 0 (successful).
+  INFO [4ca030ec] Running /usr/bin/env ln -s /var/www/escamboapp/shared/public/system /var/www/escamboapp/releases/20181118121501/public/system as deploy@159.65.19.177
+ DEBUG [4ca030ec] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/public/system /var/www/escamboapp/releases/20181118121501/public/system
+  INFO [d4b70041] Finished in 0.808 seconds with exit status 0 (successful).
+ DEBUG [bed92fd3] Running [ -L /var/www/escamboapp/releases/20181118121501/public/assets ] as deploy@159.65.19.177
+ DEBUG [bed92fd3] Command: [ -L /var/www/escamboapp/releases/20181118121501/public/assets ]
+ DEBUG [13805cc9] Finished in 0.808 seconds with exit status 1 (failed).
+ DEBUG [80b558b7] Running [ -d /var/www/escamboapp/releases/20181118121501/public/assets ] as deploy@159.65.19.177
+ DEBUG [80b558b7] Command: [ -d /var/www/escamboapp/releases/20181118121501/public/assets ]
+ DEBUG [cfc2e9cb] Finished in 0.808 seconds with exit status 1 (failed).
+  INFO [c0ecc65a] Running /usr/bin/env ln -s /var/www/escamboapp/shared/public/assets /var/www/escamboapp/releases/20181118121501/public/assets as deploy@159.65.19.177
+ DEBUG [c0ecc65a] Command: /usr/bin/env ln -s /var/www/escamboapp/shared/public/assets /var/www/escamboapp/releases/20181118121501/public/assets
+  INFO [72ffa431] Finished in 1.248 seconds with exit status 0 (successful).
+ DEBUG [76c572df] Running if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [76c572df] Command: if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi
+ DEBUG [40ec09fa] Finished in 0.773 seconds with exit status 0 (successful).
+ DEBUG [a2ae2a86] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/www/escamboapp/shared/bundle as deploy@159.65.19.177
+ DEBUG [a2ae2a86] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/local/rvm/bin/rvm default do bundle check --path /var/www/escamboapp/shared/bundle
+ DEBUG [b81b58cd] 	The following gems are missing
+ DEBUG [b81b58cd] 	 * net-ssh (5.0.2)
+ DEBUG [b81b58cd] 	 * net-scp (1.2.1)
+ DEBUG [b81b58cd] 	 * sshkit (1.18.0)
+ DEBUG [b81b58cd] 	 * airbrussh (1.3.1)
+ DEBUG [b81b58cd] 	 * coderay (1.1.2)
+ DEBUG [b81b58cd] 	 * erubi (1.7.1)
+ DEBUG [b81b58cd] 	 * better_errors (2.5.0)
+ DEBUG [b81b58cd] 	 * debug_inspector (0.0.3)
+ DEBUG [b81b58cd] 	 * binding_of_caller (0.8.0)
+ DEBUG [b81b58cd] 	 * byebug (10.0.2)
+ DEBUG [b81b58cd] 	 * capistrano (3.11.0)
+ DEBUG [b81b58cd] 	 * capistrano-bundler (1.4.0)
+ DEBUG [b81b58cd] 	 * capistrano-rails (1.4.0)
+ DEBUG [b81b58cd] 	 * capistrano-rvm (0.1.2)
+ DEBUG [b81b58cd] 	 * capistrano3-unicorn (0.2.1)
+ DEBUG [b81b58cd] 	 * choice (0.2.0)
+ DEBUG [b81b58cd] 	 * daemons (1.2.6)
+ DEBUG [b81b58cd] 	 * debase-ruby_core_source (0.10.3)
+ DEBUG [b81b58cd] 	 * debase (0.2.2)
+ DEBUG [b81b58cd] 	 * eventmachine (1.0.9.1)
+ DEBUG [b81b58cd] 	 * http_parser.rb (0.6.0)
+ DEBUG [b81b58cd] 	 * em-websocket (0.5.1)
+ DEBUG [b81b58cd] 	 * formatador (0.2.5)
+ DEBUG [b81b58cd] 	 * ruby_dep (1.5.0)
+ DEBUG [b81b58cd] 	 * listen (3.1.5)
+ DEBUG [b81b58cd] 	 * lumberjack (1.0.13)
+ DEBUG [b81b58cd] 	 * nenv (0.3.0)
+ DEBUG [b81b58cd] 	 * shellany (0.0.1)
+ DEBUG [b81b58cd] 	 * notiffany (0.1.1)
+ DEBUG [b81b58cd] 	 * method_source (0.9.2)
+ DEBUG [b81b58cd] 	 * pry (0.12.2)
+ DEBUG [b81b58cd] 	 * guard (2.15.0)
+ DEBUG [b81b58cd] 	 * guard-compat (1.2.1)
+ DEBUG [b81b58cd] 	 * guard-livereload (2.5.2)
+ DEBUG [b81b58cd] 	 * rack-protection (1.5.5)
+ DEBUG [b81b58cd] 	 * sinatra (1.4.8)
+ DEBUG [b81b58cd] 	 * thin (1.5.1)
+ DEBUG [b81b58cd] 	 * skinny (0.2.4)
+ DEBUG [b81b58cd] 	 * mailcatcher (0.6.5)
+ DEBUG [b81b58cd] 	 * ruby-graphviz (1.2.4)
+ DEBUG [b81b58cd] 	 * rails-erd (1.5.2)
+ DEBUG [b81b58cd] 	 * ruby-debug-ide (0.6.1)
+ DEBUG [b81b58cd] 	 * spring (2.0.2)
+ DEBUG [b81b58cd] 	 * web-console (2.3.0)
+ DEBUG [b81b58cd] 	Install missing gems with `bundle install`
+ DEBUG [b81b58cd] Finished in 3.027 seconds with exit status 1 (failed).
+  INFO [5b174a39] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/www/escamboapp/shared/bundle --without development test --deployment --quiet as deploy@159.65.19.177
+ DEBUG [5b174a39] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/local/rvm/bin/rvm default do bundle install --path /var/www/escamboapp/shared/bundle --without development test --deployment --quiet
+  INFO [b578fb59] Finished in 2.640 seconds with exit status 0 (successful).
+ DEBUG [107abea4] Running if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [107abea4] Command: if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi
+ DEBUG [6ae59bbd] Finished in 1.063 seconds with exit status 0 (successful).
+  INFO [1a6cdd17] Running /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile as deploy@159.65.19.177
+ DEBUG [1a6cdd17] Command: cd /var/www/escamboapp/releases/20181118121501 && ( export RAILS_ENV="production" RAILS_GROUPS="" ; /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile )
+  INFO [a832b27c] Finished in 4.937 seconds with exit status 0 (successful).
+ DEBUG [aef054c6] Running if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [aef054c6] Command: if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi
+ DEBUG [67903084] Finished in 1.069 seconds with exit status 0 (successful).
+  INFO [6e48be15] Running /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501/assets_manifest_backup as deploy@159.65.19.177
+ DEBUG [6e48be15] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/bin/env mkdir -p /var/www/escamboapp/releases/20181118121501/assets_manifest_backup
+  INFO [bb106798] Finished in 0.811 seconds with exit status 0 (successful).
+ DEBUG [991dc85c] Running /usr/bin/env ls /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest* as deploy@159.65.19.177
+ DEBUG [991dc85c] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/bin/env ls /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest*
+ DEBUG [94c93111] 	/var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest-45a1c4012e351191a328a851f5f3df69.json
+ DEBUG [94c93111] Finished in 1.123 seconds with exit status 0 (successful).
+ DEBUG [0d0f1349] Running /usr/bin/env ls /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest* as deploy@159.65.19.177
+ DEBUG [0d0f1349] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/bin/env ls /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest*
+ DEBUG [6e2d5309] 	/var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest-45a1c4012e351191a328a851f5f3df69.json
+ DEBUG [6e2d5309] Finished in 0.814 seconds with exit status 0 (successful).
+  INFO [9ef88866] Running /usr/bin/env cp /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest-45a1c4012e351191a328a851f5f3df69.json /var/www/escamboapp/releases/20181118121501/assets_manifest_backup as deploy@159.65.19.177
+ DEBUG [9ef88866] Command: cd /var/www/escamboapp/releases/20181118121501 && /usr/bin/env cp /var/www/escamboapp/releases/20181118121501/public/assets/.sprockets-manifest-45a1c4012e351191a328a851f5f3df69.json /var/www/escamboapp/releases/20181118121501/assets_manifest_backup
+  INFO [967ef42d] Finished in 0.839 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [5e7a2c0d] Running if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [5e7a2c0d] Command: if test ! -d /var/www/escamboapp/releases/20181118121501; then echo "Directory does not exist '/var/www/escamboapp/releases/20181118121501'" 1>&2; false; fi
+ DEBUG [ed56abb8] Finished in 0.831 seconds with exit status 0 (successful).
+  INFO [67fa7d15] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate as deploy@159.65.19.177
+ DEBUG [67fa7d15] Command: cd /var/www/escamboapp/releases/20181118121501 && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate )
+  INFO [db728025] Finished in 3.873 seconds with exit status 0 (successful).
+  INFO [142b80ae] Running /usr/bin/env ln -s /var/www/escamboapp/releases/20181118121501 /var/www/escamboapp/releases/current as deploy@159.65.19.177
+ DEBUG [142b80ae] Command: /usr/bin/env ln -s /var/www/escamboapp/releases/20181118121501 /var/www/escamboapp/releases/current
+  INFO [7db9b128] Finished in 0.808 seconds with exit status 0 (successful).
+  INFO [a6635045] Running /usr/bin/env mv /var/www/escamboapp/releases/current /var/www/escamboapp as deploy@159.65.19.177
+ DEBUG [a6635045] Command: /usr/bin/env mv /var/www/escamboapp/releases/current /var/www/escamboapp
+  INFO [7ef182e3] Finished in 0.843 seconds with exit status 0 (successful).
+ DEBUG [d9fc44b7] Running if test ! -d /var/www/escamboapp/current; then echo "Directory does not exist '/var/www/escamboapp/current'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [d9fc44b7] Command: if test ! -d /var/www/escamboapp/current; then echo "Directory does not exist '/var/www/escamboapp/current'" 1>&2; false; fi
+ DEBUG [8562396f] Finished in 0.804 seconds with exit status 0 (successful).
+ DEBUG [9ea16c0d] Running [ -e /var/www/escamboapp/current/tmp/pids/unicorn.pid ] as deploy@159.65.19.177
+ DEBUG [9ea16c0d] Command: [ -e /var/www/escamboapp/current/tmp/pids/unicorn.pid ]
+ DEBUG [4c2cc7f8] Finished in 0.806 seconds with exit status 0 (successful).
+ DEBUG [8c6f94b2] Running kill -0 `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid` as deploy@159.65.19.177
+ DEBUG [8c6f94b2] Command: kill -0 `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid`
+ DEBUG [26f25945] Finished in 0.813 seconds with exit status 0 (successful).
+  INFO stopping unicorn...
+  INFO [999bbe47] Running /usr/bin/env kill -s QUIT `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid` as deploy@159.65.19.177
+ DEBUG [999bbe47] Command: cd /var/www/escamboapp/current && /usr/bin/env kill -s QUIT `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid`
+  INFO [0d66aafe] Finished in 0.832 seconds with exit status 0 (successful).
+ DEBUG [c9751ae5] Running if test ! -d /var/www/escamboapp/current; then echo "Directory does not exist '/var/www/escamboapp/current'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [c9751ae5] Command: if test ! -d /var/www/escamboapp/current; then echo "Directory does not exist '/var/www/escamboapp/current'" 1>&2; false; fi
+ DEBUG [788be78c] Finished in 0.809 seconds with exit status 0 (successful).
+ DEBUG [c2787cad] Running [ -e /var/www/escamboapp/current/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid` as deploy@159.65.19.177
+ DEBUG [c2787cad] Command: [ -e /var/www/escamboapp/current/tmp/pids/unicorn.pid ] && kill -0 `cat /var/www/escamboapp/current/tmp/pids/unicorn.pid`
+ DEBUG [7d7ab84c] Finished in 0.810 seconds with exit status 1 (failed).
+  INFO [1d927b94] Running /usr/local/rvm/bin/rvm default do bundle exec unicorn -c /var/www/escamboapp/current/config/unicorn/production.rb -E deployment -D  as deploy@159.65.19.177
+ DEBUG [1d927b94] Command: cd /var/www/escamboapp/current && ( export RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec unicorn -c /var/www/escamboapp/current/config/unicorn/production.rb -E deployment -D  )
+  INFO [97288575] Finished in 4.638 seconds with exit status 0 (successful).
+ DEBUG [ea4ed6f8] Running /usr/bin/env ls -x /var/www/escamboapp/releases as deploy@159.65.19.177
+ DEBUG [ea4ed6f8] Command: /usr/bin/env ls -x /var/www/escamboapp/releases
+ DEBUG [72b64118] 	20181118111440	20181118115133	20181118120041	20181118121501
+ DEBUG [72b64118] Finished in 1.063 seconds with exit status 0 (successful).
+ DEBUG [0a7b5dec] Running if test ! -d /var/www/escamboapp/releases; then echo "Directory does not exist '/var/www/escamboapp/releases'" 1>&2; false; fi as deploy@159.65.19.177
+ DEBUG [0a7b5dec] Command: if test ! -d /var/www/escamboapp/releases; then echo "Directory does not exist '/var/www/escamboapp/releases'" 1>&2; false; fi
+ DEBUG [12c7de93] Finished in 1.145 seconds with exit status 0 (successful).
+  INFO [30c74f04] Running /usr/bin/env echo "Branch master (at 2a5b10be02999e54a86c461d1018e4c39fd396d5) deployed as release 20181118121501 by vagrant" >> /var/www/escamboapp/revisions.log as deploy@159.65.19.177
+ DEBUG [30c74f04] Command: cd /var/www/escamboapp/releases && /usr/bin/env echo "Branch master (at 2a5b10be02999e54a86c461d1018e4c39fd396d5) deployed as release 20181118121501 by vagrant" >> /var/www/escamboapp/revisions.log
+  INFO [a6e24432] Finished in 0.806 seconds with exit status 0 (successful).

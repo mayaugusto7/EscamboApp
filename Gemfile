@@ -154,4 +154,7 @@ group :production do
 
   # Use Unicorn as the app server
   gem 'unicorn'
+
+  # Mail Gun
+  gem 'mailgun-ruby', '~>1.1.6'
 end
