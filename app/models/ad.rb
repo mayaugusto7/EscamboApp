@@ -27,7 +27,13 @@ class Ad < ActiveRecord::Base
   scope :to_member, ->(member) { where(member: member) }
   scope :filter_category, -> (id, page) { where(category: id).page(page).per(QTD_PER_PAGE) }
   scope :search, -> (term, page) { where("title LIKE ?", "%#{term}%").page(page).per(QTD_PER_PAGE) }
-  scope :carousel_random, -> { limit(CAROUSEL_NUMBER).order("RANDOM()")}
+  scope :carousel_random, -> do
+    if Rails.env.production?
+      limit(CAROUSEL_NUMBER).order("RAND()")
+    else
+      limit(CAROUSEL_NUMBER).order("RANDOM()")
+    end
+  end
 
 
   def second
