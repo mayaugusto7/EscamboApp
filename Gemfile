@@ -79,6 +79,9 @@ group :development do
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-rvm'
   gem 'capistrano3-unicorn'
+
+  # https://github.com/cyu/rack-cors
+  gem 'rack-cors', require: 'rack/cors'
 end
 
 group :development do
@@ -158,3 +161,6 @@ group :production do
   # Mail Gun
   gem 'mailgun-ruby', '~>1.1.6'
 end
+
+# https://github.com/pagseguro/ruby
+gem 'pagseguro-oficial', '~> 2.5.0'

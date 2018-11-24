@@ -3,9 +3,10 @@ class Ad < ActiveRecord::Base
   QTD_PER_PAGE = 6
   CAROUSEL_NUMBER = 3
 
+  enum status: [:active, :processing, :sold]
+
   ratyrate_rateable "quality"
 
-  # Callback Active Record
   before_save :md_to_html
 
   belongs_to :category, counter_cache: true
