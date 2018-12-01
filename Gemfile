@@ -164,3 +164,11 @@ end
 
 # https://github.com/pagseguro/ruby
 gem 'pagseguro-oficial', '~> 2.5.0'
+
+# https://github.com/cortiz/prawn-rails
+gem 'prawn-rails'
+
+
+# https://github.com/mileszs/wicked_pdf
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'

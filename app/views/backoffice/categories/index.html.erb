@@ -4,6 +4,9 @@
 
     <div class="row">
       <div class="col-lg-12" align="right">
+        <%= link_to backoffice_categories_path(format: :pdf),  class: "btn btn-warning" do %>
+          <i class="fa fa-print"></i> &nbsp;Imprimir
+        <% end %>
         <%= link_to new_backoffice_category_path, class: "btn btn-success" do %>
           <i class="fa fa-plus"></i> &nbsp;Novo
         <% end %>
