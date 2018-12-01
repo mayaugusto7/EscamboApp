@@ -47,6 +47,7 @@
     <orderEntry type="library" scope="PROVIDED" name="capistrano-rails (v1.4.0, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capistrano-rvm (v0.1.2, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capistrano3-unicorn (v0.2.1, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chartkick (v3.0.1, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="choice (v0.2.0, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="climate_control (v0.2.0, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.2, Remote-rvm: ruby-2.5.1-p57) [gem]" level="application" />

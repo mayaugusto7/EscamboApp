@@ -172,3 +172,6 @@ gem 'prawn-rails'
 # https://github.com/mileszs/wicked_pdf
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+
+# https://chartkick.com/ https://github.com/ankane/chartkick
+gem 'chartkick'
