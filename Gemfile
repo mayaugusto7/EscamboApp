@@ -175,3 +175,6 @@ gem 'wkhtmltopdf-binary'
 
 # https://chartkick.com/ https://github.com/ankane/chartkick
 gem 'chartkick'
+
+# https://github.com/ankane/searchkick
+gem 'searchkick'

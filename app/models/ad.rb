@@ -1,5 +1,7 @@
 class Ad < ActiveRecord::Base
 
+  searchkick
+
   QTD_PER_PAGE = 6
   CAROUSEL_NUMBER = 3
 
@@ -27,7 +29,10 @@ class Ad < ActiveRecord::Base
   scope :descending_order, ->(page) { order(created_at: :desc).page(page).per(QTD_PER_PAGE) }
   scope :to_member, ->(member) { where(member: member) }
   scope :filter_category, -> (id, page) { where(category: id).page(page).per(QTD_PER_PAGE) }
-  scope :search, -> (term, page) { where("title LIKE ?", "%#{term}%").page(page).per(QTD_PER_PAGE) }
+  #scope :search, -> (term, page) { where("title LIKE ?", "%#{term}%").page(page).per(QTD_PER_PAGE) }
+
+
+
   scope :carousel_random, -> do
     if Rails.env.production?
       limit(CAROUSEL_NUMBER).order("RAND()")
