@@ -178,3 +178,6 @@ gem 'chartkick'
 
 # https://github.com/ankane/searchkick
 gem 'searchkick'
+
+# Simple, efficient background processing for Ruby http://sidekiq.org
+gem 'sidekiq'

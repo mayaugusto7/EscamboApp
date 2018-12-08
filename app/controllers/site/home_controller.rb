@@ -2,6 +2,8 @@ class Site::HomeController < SiteController
 
   def index
 
+    HardWorker.perform_async("Maycon Ribeiro")
+
     puts ">>>>>>>>>>>>>>>>> #{session[:name]}"
 
     @categories = Category.order_by_description

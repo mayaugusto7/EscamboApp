@@ -24,8 +24,8 @@
     <session id="1642625795">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="60" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="61" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -38,15 +38,15 @@
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="9" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Capfile" value="6" />
-          <entry key="Gemfile" value="37" />
+          <entry key="Gemfile" value="38" />
           <entry key="Guardfile" value="11" />
-          <entry key="Procfile" value="9" />
+          <entry key="Procfile" value="11" />
           <entry key="Rakefile" value="1" />
           <entry key="Vagrantfile" value="1" />
           <entry key="builder" value="1" />
@@ -64,7 +64,7 @@
           <entry key="png" value="3" />
           <entry key="prawn" value="2" />
           <entry key="rake" value="16" />
-          <entry key="rb" value="394" />
+          <entry key="rb" value="400" />
           <entry key="rdoc" value="9" />
           <entry key="ruby-version" value="1" />
           <entry key="scss" value="9" />
@@ -80,11 +80,11 @@
           <entry key="JavaScript" value="44" />
           <entry key="Log" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="21" />
           <entry key="RDOC" value="9" />
           <entry key="RHTML" value="312" />
           <entry key="RXML" value="1" />
-          <entry key="Ruby" value="468" />
+          <entry key="Ruby" value="475" />
           <entry key="SCSS" value="9" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="40" />
@@ -93,9 +93,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Capfile" value="46" />
-          <entry key="Gemfile" value="636" />
+          <entry key="Gemfile" value="646" />
           <entry key="Guardfile" value="8" />
-          <entry key="Procfile" value="131" />
+          <entry key="Procfile" value="231" />
           <entry key="builder" value="95" />
           <entry key="css" value="94" />
           <entry key="erb" value="12112" />
@@ -105,7 +105,7 @@
           <entry key="js" value="264" />
           <entry key="prawn" value="223" />
           <entry key="rake" value="1876" />
-          <entry key="rb" value="13665" />
+          <entry key="rb" value="13965" />
           <entry key="rdoc" value="393" />
           <entry key="scss" value="22" />
           <entry key="yml" value="1552" />
@@ -116,11 +116,11 @@
           <entry key="CSS" value="94" />
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="266" />
-          <entry key="PLAIN_TEXT" value="432" />
+          <entry key="PLAIN_TEXT" value="532" />
           <entry key="RDOC" value="393" />
           <entry key="RHTML" value="12110" />
           <entry key="RXML" value="95" />
-          <entry key="Ruby" value="16402" />
+          <entry key="Ruby" value="16712" />
           <entry key="SCSS" value="22" />
           <entry key="YAML" value="1552" />
         </counts>
@@ -131,79 +131,41 @@
     <favorites_list name="escamboapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/site/search_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.ruby-version">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rdoc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="54" column="10" selection-start-line="54" selection-end-line="54" selection-end-column="29" />
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
+        <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml.example">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/controllers/site/home_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -257,10 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/members/shared/_form.html.erb" />
-        <option value="$PROJECT_DIR$/config/database.yml.example" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/lib/tasks/dev.rake" />
         <option value="$PROJECT_DIR$/config/unicorn/production.rb" />
@@ -286,11 +244,9 @@
         <option value="$PROJECT_DIR$/config/secrets.yml" />
         <option value="$PROJECT_DIR$/config/initializers/pagseguro.rb" />
         <option value="$PROJECT_DIR$/app/controllers/checkout/notification_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/checkout/payments_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/checkout/notifications_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/site/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/backoffice/categories/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/backoffice/categories/index.pdf.prawn" />
         <option value="$PROJECT_DIR$/app/views/site/ad_details/_show.html.erb" />
@@ -304,10 +260,16 @@
         <option value="$PROJECT_DIR$/app/views/backoffice/dashboard/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/backoffice.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/ad.rb" />
         <option value="$PROJECT_DIR$/app/controllers/site/search_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app/controllers/backoffice/send_mail_controller.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/admin_mailer.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/workers/hard_worker.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/site/home_controller.rb" />
       </list>
     </option>
   </component>
@@ -367,8 +329,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,18 +339,26 @@
             <path>
               <item name="escamboapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="escamboapp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escamboapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escamboapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="data&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/database.yml.example&#10;database.y&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/database.yml&#10;searc&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/search_controller.rb&#10;ad_controlle&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/profile/ads_controller.rb&#10;ad&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/ad.rb&#10;Gemfi&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;das&#9;null&#9;null&#10;application&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;Searc&#9;null&#9;null&#10;home_co&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/home_controller.rb&#10;worksp&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/.idea/workspace.xml&#10;applica&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/application.rb&#10;Gem&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;routes&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/routes.rb&#10;paymen&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/checkout/payments_controller.rb&#10;secrets&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/secrets.yml&#10;_show&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/ad_details/_show.html.erb&#10;payme&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/checkout/payments_controller.rb&#10;applic&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;backoffice.js&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/backoffice.js&#10;admin&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/admin.rb&#10;order&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/order.rb&#10;member&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;envir&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/environments&#10;devise&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/initializers/devise.rb&#10;mem&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;profile_&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;memb&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;profile_me&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;pr&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;site.css&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/stylesheets/site.css&#10;show&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/ad_details/_show.html.erb&#10;sessco&#9;null&#9;null&#10;appli&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/application_controller.rb&#10;comment_cont&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/comments_controller.rb&#10;home&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/home_controller.rb&#10;_ads&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/shared/_ads.html.erb&#10;_side&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/shared/_sidebar.html.erb&#10;site&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/site.js&#10;app&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;GemF&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;Catego&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/backoffice/categories_controller.rb&#10;site_controll&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site_controller.rb&#10;friend&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/initializers/friendly_id.rb&#10;category&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/category.rb&#10;route&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/routes.rb&#10;categ&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/category.rb&#10;appl&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;site.js&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/site.js&#10;adcontroller&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/profile/ads_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="homec&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/home_controller.rb&#10;routes&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/routes.rb&#10;send&#9;null&#9;null&#10;application&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/application.rb&#10;admin&#9;null&#9;null&#10;data&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/database.yml.example&#10;database.y&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/database.yml&#10;searc&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/search_controller.rb&#10;ad_controlle&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/profile/ads_controller.rb&#10;ad&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/ad.rb&#10;Gemfi&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;das&#9;null&#9;null&#10;Searc&#9;null&#9;null&#10;home_co&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/home_controller.rb&#10;worksp&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/.idea/workspace.xml&#10;applica&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/application.rb&#10;Gem&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;paymen&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/checkout/payments_controller.rb&#10;secrets&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/secrets.yml&#10;_show&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/ad_details/_show.html.erb&#10;payme&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/checkout/payments_controller.rb&#10;applic&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;backoffice.js&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/backoffice.js&#10;order&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/order.rb&#10;member&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;envir&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/environments&#10;devise&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/initializers/devise.rb&#10;mem&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;profile_&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;memb&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/member.rb&#10;profile_me&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;pr&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/profile_member.rb&#10;site.css&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/stylesheets/site.css&#10;show&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/ad_details/_show.html.erb&#10;sessco&#9;null&#9;null&#10;appli&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/application_controller.rb&#10;comment_cont&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/comments_controller.rb&#10;home&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site/home_controller.rb&#10;_ads&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/shared/_ads.html.erb&#10;_side&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/views/site/shared/_sidebar.html.erb&#10;site&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/site.js&#10;app&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js&#10;GemF&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/Gemfile&#10;Catego&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/backoffice/categories_controller.rb&#10;site_controll&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/controllers/site_controller.rb&#10;friend&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/initializers/friendly_id.rb&#10;category&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/category.rb&#10;route&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/config/routes.rb&#10;categ&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/models/category.rb&#10;appl&#9;FILE&#9;file://C:/Users/mayco/Desktop/DEV-PROJECTS/ruby-projects/rails4-udemy/escamboapp/app/assets/javascripts/application.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -480,11 +448,10 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="Remote-rvm: ruby-2.5.1-p57" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="Remote-rbenv: ruby-2.5.3-p105" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
@@ -615,12 +582,13 @@
       <workItem from="1543098423521" duration="2599000" />
       <workItem from="1543697356817" duration="4106000" />
       <workItem from="1543749975687" duration="2849000" />
-      <workItem from="1544269873672" duration="4521000" />
+      <workItem from="1544269873672" duration="5493000" />
+      <workItem from="1544275415964" duration="2869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265087000" />
+    <option name="totallyTimeSpent" value="268928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,21 +603,21 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.26492536" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.2675906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.2531983" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.35287732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49253732" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5074627" side_tool="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4946695" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -758,22 +726,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/member.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/average_cache.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181124153025_create_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -845,13 +797,6 @@
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/checkout/notifications_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -880,13 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/site/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1008,13 +946,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/site/profile/ads_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ad.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1057,10 +988,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/admin_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/backoffice/send_mail_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="629">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/site/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/workers/hard_worker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
